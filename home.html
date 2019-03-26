@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="theCSS/home.css" />
+    <script src="theJS/home.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|ZCOOL+KuaiLe" rel="stylesheet">
+</head>
+
+<body>
+    <div id="web_bg"><img src="素材\gratisography-mountain-peaks (2).jpg" width="1826px" height="1000px"></div>
+    <center>
+        <div class="shortcut">
+
+            <div class="utility-nav">
+                <div class="left">
+                    <ul>
+                        <li><a href="index.html">主页</a></li>
+                        <li><a href="home.html">订阅</a></li>
+                        <li><a href="look.html">随便看看</a></li>
+                        <li><a href="problem.html">问题反馈</a></li>
+                    </ul>
+                </div>
+
+                <div class="right">
+                    <ul>
+                        <li><a href="search.html">搜索 </a></li>
+                        <li><img class="user_photo" src="素材\16261Q561-2.jpg" id="user_photo"> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </center>
+    <h2>你的主页</h2>
+    <div class="utility-nav">
+        <div class="shortcut2" id="user">
+
+            <div class="left">
+                <ul>
+                    <li><a href="">个人设置</a></li>
+                    <li><a href="#work">作品</a></li>
+                    <li><a href="#collect">收藏</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="setting">
+            <br>
+            <h>个人设置</h>
+            <table>
+                <tr>
+                    <td>
+                        <form>
+                            <input type="button" class="change" value="编辑" id="change_button">
+                        </form>
+                    </td>
+                    <td>
+                        <form>
+                            <p>昵称：王可青</p>
+                            <input type="text" name="username" value="新的昵称" id=username><br>
+                            <p>密码：123456</p>
+                            <input type="text" name="password" value="新的密码" id=password><br>
+                            <p>邮箱：1139719961@qq.com</p>
+                            <input type="email" name="email" value="新的邮箱" id=email><br>
+                            <p>电话：1234567890</p>
+                            <input type="text" name="phonenumber" value="新的电话" id=phone>
+                        </form>
+                    </td>
+                    <td>
+                        <form>
+                            <p>你的头像：</p>
+                            <img class="user_photo" src="素材\16261Q561-2.jpg" id="user_photo"><br>
+                            <p>新头像：</p>
+                            <input type="file" id="picPath" name="doc" onchange="PreviewImage('Preview',this,120,120);" />
+                            <div id="Preview" style="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale);"></div>
+                            <p>你的背景：</p>
+                            <img src="素材\gratisography-mountain-peaks (2).jpg" width="80px" height="50px"><br>
+                            <p>新背景：</p>
+                            <input type="file" id="picPath" name="doc" onchange="PreviewImage('Preview',this,120,120);" />
+                            <div id="Preview" style="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale);"></div>
+                        </form>
+                    </td>
+                    <td>
+                        <form>
+                            <p class="p0">
+                                允许别人看我的主页<input type="radio" name="setting" value="允许别人看我的主页" id=allow_home><br><br><br> 关闭我的作品评论
+                                <input type="radio" name="setting" value="关闭我的作品评论" id=allow_works><br><br><br> 根据浏览记录推荐
+                                <input type="radio" name="setting" value="根据浏览记录推荐" id=allow_recommend><br><br><br>
+                            </p>
+                            <input type="button" class="change" value="保存" id="change_button">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="line1">
+        </div>
+        <div class="collect">
+            <br>
+            <p><a name="collect">收藏</a></p>
+            <div class=box1>
+                <h>web.500px.com</h>
+                <p class="box_p"> <img src="素材\2018-12-19 (4).png" class="box_picture1">
+                    <br> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;500px是一个加拿大的线上摄影社区。社区最初...
+                </p>
+            </div>
+            <div class=box2>
+                <h>web.500px.com</h>
+                <p class="box_p"> <img src="素材\2018-12-19 (4).png" class="box_picture1">
+                    <br> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;500px是一个加拿大的线上摄影社区。社区最初...
+                </p>
+            </div>
+            <div class=box3>
+                <h>web.500px.com</h>
+                <p class="box_p"> <img src="素材\2018-12-19 (4).png" class="box_picture1">
+                    <br> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;500px是一个加拿大的线上摄影社区。社区最初...
+                </p>
+            </div>
+        </div>
+        <div class="line2">
+        </div>
+        <div class="works">
+            <br>
+            <p><a name="work">作品</a></p>
+            <br><br><br>
+            <center>暂无</center><br>
+            <center><input type="button" class="work_in" value="新增作品" id="works_button"></center>
+        </div>
+    </div>
+
+    <div class="Right">
+        <h2>
+            曾经的足迹
+        </h2>
+        <div class="rightbox1">
+            <br>
+            <p class="box_p">Firefox Developer Edition</p>
+            <br>
+            <a href="software2_fire.html" class="history_link"> <img src="素材\hero-debugger-ani.7e04d95e76ea.gif" class="box_picture" id=obj border=0></a>
+        </div><br><br><br>
+        <div class="rightbox2">
+            <br>
+            <p class="box_p">Bastion</p>
+            <br>
+            <a href="game2_Bastion.html" class="history_link"> <img src="素材\bastion2.jpg" class="box_picture" id=obj border=0></a>
+        </div><br><br><br>
+        <div class="rightbox3">
+            <br>
+            <p class="box_p">ジョジョの奇妙な冒険</p>
+            <br>
+            <a href="anime2_jojo.html" class="history_link"> <img src="素材\jojo2.jpg" class="box_picture" id=obj border=0></a>
+        </div><br><br><br>
+    </div>
+
+</body>
+
+</html>

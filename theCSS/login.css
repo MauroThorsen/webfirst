@@ -1,0 +1,92 @@
+#web_bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 1000px;
+    z-index: -10;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+}
+
+.shortcut {
+    width: 90%;
+    height: 40px;
+    background-color: #fff;
+    font-size: 12px;
+    z-index: 999;
+}
+
+.utility-nav ul li a {
+    font-size: 15px;
+    font-size: .9375rem;
+    line-height: 22.5px;
+    line-height: 1.40625rem;
+    padding: 0 .9rem;
+    display: table;
+    display: -moz-inline-box;
+    color: #646464;
+    outline: none;
+    text-decoration: none;
+}
+
+.left li {
+    float: left;
+    padding: 8px 30px;
+}
+
+.right li {
+    float: right;
+    padding: 8px 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.login_window {
+    width: 40%;
+    height: 400px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    right: 12%;
+}
+
+.button {
+    border-radius: 5px 5px 5px 5px;
+    margin: 0;
+    background: #c2dfea;
+    font: 12px Verdana, Arial, Helvetica, sans-serif;
+    color: #000000;
+    width: 50px;
+    height: 30px;
+}
+
+.forget_ps {
+    float: right;
+    font-size: 13px;
+    color: #4472ca;
+}
+
+.foot {
+    top: 80%;
+    background-color: #fff;
+    width: 85%;
+    left: 7%;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    position: absolute;
+    height: 300px;
+    float: left;
+}
+
+body {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}

@@ -1,0 +1,142 @@
+#web_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 1000px;
+    z-index: -10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+}
+
+.shortcut {
+    width: 90%;
+    height: 40px;
+    background-color: #fff;
+    font-size: 10px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    z-index: 999;
+}
+
+.left li {
+    float: left;
+    padding: 8px 30px;
+}
+
+.right li {
+    float: right;
+    padding: 8px 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.icon {
+    height: 60px;
+    width: 80px;
+}
+
+.utility-nav ul li a {
+    font-size: 12px;
+    font-size: .9375rem;
+    line-height: 22.5px;
+    line-height: 1.40625rem;
+    padding: 0 .9rem;
+    display: table;
+    display: -moz-inline-box;
+    color: #646464;
+    outline: none;
+    text-decoration: none;
+}
+
+* {
+    margin: auto;
+    padding: 0;
+}
+
+.form {
+    width: 800px;
+    height: 85px;
+    background: rgba(0, 0, 0, .2);
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    width: 600px;
+    height: 80px;
+    background-color: #eeeeee;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font: bold 25px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    font-style: italic;
+}
+
+button {
+    /*display:inline-block;*/
+    width: 200px;
+    height: 80px;
+    background-color: #d93c3c;
+    color: #fff;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/*使用伪类来添加三角符号*/
+
+button:before {
+    content: "";
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent #d93c3c transparent transparent;
+    position: absolute;
+    right: 100%;
+    top: 38%;
+}
+
+.search {
+    top: 45%;
+    width: 1100px;
+    left: 15%;
+    margin: auto;
+    position: absolute;
+    height: 300px;
+    float: left;
+}
+
+.p1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+}
+
+.word_change {
+    top: 20%;
+    left: 20%;
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    height: 150px;
+    float: left;
+}
+
+.foot {
+    top: 70%;
+    background-color: #fff;
+    width: 85%;
+    left: 7%;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    position: absolute;
+    height: 275px;
+    float: left;
+}

@@ -1,0 +1,94 @@
+#web_bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 1000px;
+    z-index: -10;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+}
+
+.shortcut {
+    width: 90%;
+    height: 40px;
+    background-color: #fff;
+    font-size: 12px;
+    z-index: 999;
+}
+
+.left li {
+    float: left;
+    padding: 8px 30px;
+}
+
+.right li {
+    float: right;
+    padding: 8px 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.icon {
+    height: 60px;
+    width: 80px;
+}
+
+.utility-nav ul li a {
+    font-size: 15px;
+    font-size: .9375rem;
+    line-height: 22.5px;
+    line-height: 1.40625rem;
+    padding: 0 .9rem;
+    display: table;
+    display: -moz-inline-box;
+    color: #646464;
+    outline: none;
+    text-decoration: none;
+}
+
+table {
+    border: solid 1px blue;
+    width: 600px;
+    left: 30%;
+    height: 500px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgba(176, 208, 211, 0.2);
+    margin: auto;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+}
+
+.foot {
+    top: 160%;
+    background-color: #fff;
+    width: 85%;
+    left: 7%;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    position: absolute;
+    height: 300px;
+    float: left;
+}
+
+.foot {
+    top: 80%;
+    background-color: #fff;
+    width: 85%;
+    left: 7%;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    position: absolute;
+    height: 150px;
+    float: left;
+}
+
+body {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}

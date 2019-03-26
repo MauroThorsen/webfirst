@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/javascript" src="theJS/jquery-3.3.1.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="111"></div>
+  <div id="234"></div>
+  <script>
+    $("div").append("124");
+    $(document.getElementById('111'))
+      .css("background-color", "#aaffaa")
+      .css("border", "1px solid black");
+    $("<input type='button' value='点击' />").appendTo(document.body);
+    jQuery(function () {
+      alert("加载完成");
+    });
+  </script>
+
+</body>
+
+</html>
